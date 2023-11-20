@@ -1,0 +1,155 @@
+html{
+    width: 100%;
+    height:100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    background-color: black;
+}
+.body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    /* padding: 1rem; */
+}
+h1{
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0,0.5);
+    color: #fff;
+}
+.wrapper-main{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+    padding: 1rem;
+    flex-grow: 0;
+    margin-top: 3rem;
+}
+
+.container{
+    width: 100%;
+    height:70%;
+    border: 1px solid whitesmoke;
+    margin: 0.5rem 0rem;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.2rem;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 15px rgba(255, 255, 255, 0.8);
+}
+.pageHead{
+    width: 100%;
+    height:50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+.idName{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.idName > img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.idName > span{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.followOption{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.followOption > input{
+    width: 60%;
+    height: 80%;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    color: black;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.image{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    /* border: 1px springgreen solid; */
+}
+
+.pageDown1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+.like > i{
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-size: 1.6rem;
+    cursor: pointer;
+    color: #fff;
+    margin:0.3rem;
+}
+.like > span{
+    cursor: pointer;
+    /* margin: 0.2rem; */
+}
+
+.red{
+   color: red;
+}
+@media  screen and (min-width: 768px) {
+    .body{
+        width: 50%;
+        margin: auto;
+    }
+}
+
+@media  screen and (min-width: 1024px) {
+    .body{
+        width: 30%;
+        margin: auto;
+    }
+}
+
+@media  screen and (min-width: 1444px) {
+    .body{
+        width: 25%;
+        margin: auto;
+    }
+}
